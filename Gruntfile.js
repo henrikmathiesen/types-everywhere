@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         ts: {
             default: {
-                src: [""]
+                src: ['src/**/*.ts']
             }
         }
     });

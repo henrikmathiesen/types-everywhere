@@ -1,5 +1,8 @@
 .vscode/
+.tscache/
 node_modules/
 typings/
 bld/
 **/*.log
+**/*.js
+**/*.map
