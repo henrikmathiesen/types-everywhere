@@ -1,0 +1,20 @@
+{
+  "name": "types-everywhere",
+  "version": "1.0.0",
+  "description": "There are a few ways to get TypeScript typings for 3party libraries.  \r - tsd, package manager for DefinitelyTyped, deprecated  \r - typings, package manager, includes DefinitelyTyped  \r - DefinitelyTyped as npm packages, example: https://www.npmjs.com/package/definitely-typed-angular  \r - @types, as npm packages, from Microsoft, https://www.npmjs.com/~types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikmathiesen/types-everywhere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikmathiesen/types-everywhere/issues"
+  },
+  "homepage": "https://github.com/henrikmathiesen/types-everywhere#readme"
+}
