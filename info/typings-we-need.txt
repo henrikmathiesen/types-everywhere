@@ -1,0 +1,38 @@
+"installed": {
+    "underscore/underscore.d.ts": {
+      "commit": "40369139ce3199a94fb7a89233ed31c5fe07c567"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "angularjs-toaster/angularjs-toaster.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "arcgis-js-api/arcgis-js-api.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "dojo/dojo.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "moment/moment.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "f481e77dfca5a146db1b4f5f20f15929b30c8729"
+    },
+    "underscore.string/underscore.string.d.ts": {
+      "commit": "40369139ce3199a94fb7a89233ed31c5fe07c567"
+    }
+  }
