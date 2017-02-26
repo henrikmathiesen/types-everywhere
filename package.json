@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"npm run tsc && http-server -p 1337",
     "tsc": "grunt tsc"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "grunt-cli": "1.2.0",
     "grunt-ts": "6.0.0-beta.11",
     "typescript": "2.2.1"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
   }
 }
