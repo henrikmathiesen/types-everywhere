@@ -1,7 +1,7 @@
 {
   "name": "types-everywhere",
   "version": "1.0.0",
-  "description": "There are a few ways to get TypeScript typings for 3party libraries.  \r - tsd, package manager for DefinitelyTyped, deprecated  \r - typings, package manager, includes DefinitelyTyped  \r - DefinitelyTyped as npm packages, example: https://www.npmjs.com/package/definitely-typed-angular  \r - @types, as npm packages, from Microsoft, https://www.npmjs.com/~types",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/henrikmathiesen/types-everywhere/issues"
   },
-  "homepage": "https://github.com/henrikmathiesen/types-everywhere#readme"
+  "homepage": "https://github.com/henrikmathiesen/types-everywhere#readme",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-ts": "6.0.0-beta.11"
+  }
 }

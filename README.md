@@ -11,3 +11,6 @@ http://stackoverflow.com/questions/40592539/npm-types-or-typings-or-type-or-what
 http://stackoverflow.com/questions/37548066/typescript-typings-in-npm-types-org-packages
 
 It seems TypeScript 2.0 is required.
+
+For compiling we are using Grunt and the task grunt-ts, version 6.0 which are compatible with TypeScript 2.1  
+https://www.npmjs.com/package/grunt-ts
