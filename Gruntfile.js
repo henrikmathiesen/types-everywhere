@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-ts');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.initConfig({
         // https://github.com/TypeStrong/grunt-ts/blob/master/sample/Gruntfile.js
@@ -24,9 +25,19 @@ module.exports = function (grunt) {
                     fast: 'never',
                 }
             }
+        },
+        uglify: {
+            app: {
+                files: { 'bld/app.min.js': ['bld/app.js'] },
+                options: { 
+                    sourceMap: true,
+                    // This gives us source maps back to the individual ts files!
+                    sourceMapIn: 'bld/app.js.map'
+                }
+            }
         }
     });
 
-    grunt.registerTask('tsc', ['ts']);
+    grunt.registerTask('tsc', ['ts', 'uglify:app']);
 
 };
