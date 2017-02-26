@@ -6,3 +6,4 @@ bld/
 **/*.log
 **/*.js
 **/*.map
+**/.baseDir.ts
