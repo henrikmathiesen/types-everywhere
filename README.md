@@ -24,3 +24,14 @@ It uses its own compiler and that should match the one VSCode is using for looki
 grunt-ts version <6 comes bundled with a ts compiler, but version >6 does not  
 Hopefully grunt-ts will use my local version (2.2.1) to compile the code -- it does "Using tsc v2.2.1"
 
+See grunt file for comments about modules
+
+TYPES
+
+We have downloaded types for jQuery as a first test (using @types), sadly the latest types is behind latest version of jQuery  
+I do however think that it is easier handling versions with NPM and package.json than using Typings
+
+It works, jQuery is recognised by VSCode, without doing anything more than NPM install the types, no references needed  
+If running a TypeScript compiler from the command line or from Grunt (like we do), and we specify options there, tsconfig is not really needed  
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
