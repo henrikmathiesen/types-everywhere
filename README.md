@@ -6,7 +6,7 @@ There are a few ways to get TypeScript typings for 3party libraries.
 - DefinitelyTyped as npm packages, example: https://www.npmjs.com/package/definitely-typed-angular  
 - @types, as npm packages, from Microsoft, https://www.npmjs.com/~types
 
-The wind is blowing in the direction of bullet point 4, so we will explor it in this repo.  
+The wind is blowing in the direction of bullet point 4, so we will explore it in this repo.  
 http://stackoverflow.com/questions/40592539/npm-types-or-typings-or-type-or-what  
 http://stackoverflow.com/questions/37548066/typescript-typings-in-npm-types-org-packages
 

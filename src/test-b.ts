@@ -22,5 +22,5 @@ namespace TypesEverywhere {
     // bootstrapping
 
     //declare var $:any; // This is one way of making TypeScript ignore type checking jQuery, but it's better to use typings for 3party libraries
-    var lorem = new TypesEverywhere.Lorem();
+    var lorem = new Lorem();
 }
