@@ -14,3 +14,7 @@ It seems TypeScript 2.0 is required.
 
 For compiling we are using Grunt and the task grunt-ts, version 6.0 which are compatible with TypeScript 2.1  
 https://www.npmjs.com/package/grunt-ts
+
+VSCode comes bundled with TypeScript, currently version 2.1.6  
+I however like to keep all dependencies local to the project, so Iam installing typescript (2.2.1) locally
+VSCode picks up on the installation and I can choose which of the compiler to use, i choose the local one
