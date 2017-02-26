@@ -6,8 +6,13 @@ module.exports = function (grunt) {
         // https://github.com/TypeStrong/grunt-ts/blob/master/sample/Gruntfile.js
         ts: {
             default: {
-                src: ['src/**/*.ts'],
-                outDir: 'bld/',
+                src: [
+                    'src/**/*.ts'
+                ],
+                //outDir: 'bld/',
+                // When bundeling: https://www.npmjs.com/package/grunt-ts#out
+                // Order of files seems to work for us though (test-b.ts is dependant of test-a.ts)
+                out: 'bld/app.js',
                 options: {
                     // module amd -- this option requires require.js, and is handle async at runtime
                     // module commonjs -- this option requies a build time module loader like https://www.npmjs.com/package/grunt-browserify
