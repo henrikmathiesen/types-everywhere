@@ -6,15 +6,19 @@ namespace TypesEverywhere {
         constructor() {
             this.bar = 'Iam in JavaScript land!';
             console.log(this.bar);
-            
+
             var ipsum: Ipsum = new Ipsum();
             console.log(ipsum.message());
-            
+
             this.changeH1Color();
         }
 
-        private changeH1Color(){
+        private changeH1Color() {
             $('h1').css('color', 'red');
+        }
+
+        private testingTypes(state: angular.ui.IStateService) {
+            state.go('all.over.the.place');
         }
     }
 
