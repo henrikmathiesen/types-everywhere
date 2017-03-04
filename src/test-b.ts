@@ -9,8 +9,8 @@ namespace TypesEverywhere {
             this.bar = 'Iam in JavaScript land!';
             console.log(this.bar);
 
-            //var ipsum: Ipsum = new Ipsum();
-            //console.log(ipsum.message());
+            var ipsum: Ipsum = new Ipsum();
+            console.log(ipsum.message());
 
             this.changeH1Color();
         }

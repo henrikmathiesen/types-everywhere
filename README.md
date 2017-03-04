@@ -44,6 +44,7 @@ Doing the rest, many version missmatches
 moment, message about they providing their own (I want all typings in one place!), https://www.npmjs.com/package/@types/moment  
 "As of version 2.13.0, Moment includes a typescript definition file.", http://momentjs.com/docs/  
 There is a typings file in the moment lib folder in node_modules, sadly VSCode wont pick it up, it needs to be import as a proper module
+
 @types has these for toaster, dont know if it fits us, https://www.npmjs.com/package/@types/toastr
 
 We got the rest (see info/typings-we-need.txt)
