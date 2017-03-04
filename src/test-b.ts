@@ -17,8 +17,8 @@ namespace TypesEverywhere {
             $('h1').css('color', 'red');
         }
 
-        private testingTypes(state: angular.ui.IStateService) {
-            state.go('all.over.the.place');
+        private testingTypes(state: angular.ui.IStateService, adl: adal.User) {
+            state.go('all.over.the.place', { userName: adl.userName });
         }
     }
 
