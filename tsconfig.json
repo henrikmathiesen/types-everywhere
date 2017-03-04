@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true
+    },
+    "files": [
+        "node_modules/moment/moment.d.ts"
+    ]
+}

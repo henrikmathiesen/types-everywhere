@@ -1,3 +1,5 @@
+/// <reference path="../node_modules/moment/moment.d.ts" />
+
 namespace TypesEverywhere {
 
     export class Lorem {
@@ -7,8 +9,8 @@ namespace TypesEverywhere {
             this.bar = 'Iam in JavaScript land!';
             console.log(this.bar);
 
-            var ipsum: Ipsum = new Ipsum();
-            console.log(ipsum.message());
+            //var ipsum: Ipsum = new Ipsum();
+            //console.log(ipsum.message());
 
             this.changeH1Color();
         }
@@ -19,6 +21,7 @@ namespace TypesEverywhere {
 
         private testingTypes(state: angular.ui.IStateService, adl: adal.User) {
             state.go('all.over.the.place', { userName: adl.userName });
+            var test = _.str.capitalize("henke");
         }
     }
 
