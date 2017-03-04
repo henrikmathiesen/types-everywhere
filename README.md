@@ -35,3 +35,14 @@ It works, jQuery is recognised by VSCode, without doing anything more than NPM i
 If running a TypeScript compiler from the command line or from Grunt (like we do), and we specify options there, tsconfig is not really needed.  
 https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 
+Lets test underscore, again they are behind our version
+
+Next, Angular, does not match our version
+
+Doing the rest, many version missmatches
+
+moment, message about they providing their own (I want all typings in one place!), https://www.npmjs.com/package/@types/moment
+@types has these for toaster, dont know if it fits us, https://www.npmjs.com/package/@types/toastr
+
+We got the rest (see info/typings-we-need.txt)
+
