@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run tsc && http-server -p 1337",
-    "tsc": "grunt tsc"
+    "tsc": "tsc --inlineSourceMap --inlineSources",
+    "tsc:prod":"tsc && grunt uglify"
   },
   "repository": {
     "type": "git",

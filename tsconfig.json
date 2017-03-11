@@ -1,8 +1,12 @@
 {
     "compilerOptions": {
-        "allowSyntheticDefaultImports": true
+        "outFile": "bld/app.js",
+        "target": "es5",
+        "module": "none",
+        "watch": false
     },
-    "files": [
-        "node_modules/moment/moment.d.ts"
-    ]
+
+   "include": [
+       "src/**/*"
+   ]
 }
